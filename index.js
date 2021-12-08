@@ -163,6 +163,27 @@
 // git log //listado de los commits
 // git commit --amend // arregla el nombre del ultimo commit
 // wq! // luego de arreglar el nombre
-// git checkout -branch rama-js
+// git checkout -branch rama-js //toma todo lo que estaba en el ultimo commit y crea una nueva rama
+//  git branch // ver la rama
+// git checkout master // para pasarme a la rama master
+// git branch -d rama-js
+// git remote add origin https://github.com/gonzalolabrador98/git-js.git
+// git branch -M main
+// git push -u origin main
 
+// RESUMEN
+// git init //crea un nuevo directorio en el path
+// git add . //toma todos los archivos y los prepara para un commit o snapshot
+// git commit -m "Primer Commit" // toma la snapshot para subirlo
+// git remote add origin https://github.com/gonzalolabrador98/git-js.git
+// git branch -M main
+// git push -u origin main
+
+//Para evitar escribir de nuevo todo para comitear
+// git commit -am "nombre del commit"
+// git push
+
+// console.log("Array final = ", arr);
+// console.log("Array final = ", arr);
+// console.log("Array final = ", arr);
 // console.log("Array final = ", arr);
